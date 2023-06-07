@@ -1,0 +1,127 @@
+/*These are the flex row containers*/
+.container, .section1, .sectiondark, .footer, .header, .section2 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 75px;
+
+}
+
+.sectiondark {
+    justify-content: space-between;
+    padding: 50px 75px;
+}
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 75px;
+
+}
+.header > .container {
+    padding: 0px 0px;
+    justify-content: flex-end;
+}
+
+.section1 {
+    padding: 0px 0px;
+    margin: 50px 75px;
+}
+
+.section2 {
+    padding: 0px 200px;
+}
+.greybody {
+    background-color: #e5e7eb;
+    padding: 50px 200px;
+    
+}
+
+.blue_container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 0px 75px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
+
+/*These are the flex column containers*/
+.containercol, .containercol2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+/*Fonts */
+.header, .sectiondark {
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header > .container {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.containercol > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+h2 {
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+    text-align: center;
+}
+
+h3 {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 250;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding-top: 25px;
+}
+
+/* Buttons */
+.button1, .button2 {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+}
+
+.button1 {
+    font-weight: bold;
+}
+
+.button2 {
+    border-color: white;
+    align-self: center;
+    justify-self: center;
+}
+
+/*want rounded corners on images only in 
+the bottom part of page. */
+
+/*
+.card > .img {
+    border-radius: 5px;
+    border-color: blue;
+}
+*/
+
