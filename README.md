@@ -1,9 +1,6 @@
 # Odin-Landing-Page
 
-The font that’s being used in the images is roboto.
-Hero text is the statement that appears at the top of a web page.
-
-This file will contain credits to image creators used on this landing page.
+This file contains credits to image creators used on this landing page.
 
 Header photo by Chokniti Khongchum: https://www.pexels.com/photo/person-holding-green-leafed-plant-2280551/
 
@@ -14,3 +11,7 @@ Card2 Photo by Karolina Grabowska: https://www.pexels.com/photo/unrecognizable-f
 Card3 Photo by Antoni Shkraba: https://www.pexels.com/photo/pregnant-woman-doing-yoga-pose-beside-her-dog-7524672/
 
 Card4 Photo by Pixabay: https://www.pexels.com/photo/stacked-of-stones-outdoors-289586/
+
+Notes to self:
+The font that’s being used in the images is roboto.
+Hero text is the statement that appears at the top of a web page.

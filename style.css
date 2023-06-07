@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     padding: 0px 75px;
-
 }
 
 .sectiondark {
@@ -39,20 +38,26 @@
 .blue_container {
     display: flex;
     background-color: #3882f6;
-    padding: 0px 75px;
+    padding: 30px 75px;
     flex: 1;
     justify-content: space-between;
 }
 
 
 
-/*These are the flex column containers*/
+/*These are the flex column containers  */
 .containercol, .containercol2 {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    align-items:center ;
+}
 
 /*Fonts */
 .header, .sectiondark {
@@ -70,6 +75,7 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .containercol > p {
@@ -77,7 +83,9 @@ h1 {
     font-size: 18px;
 }
 
-
+.card > p {
+    text-align: center;
+}
 h2 {
     font-size: 36px;
     font-weight: light;
@@ -92,10 +100,28 @@ h3 {
     font-weight: 250;
 }
 
+h4 {
+    text-align: end;
+}
+
+h5 {
+    font-weight: bold;
+    margin: 0;
+    font-size: medium;
+}
+
+.containercol2 > p {
+    margin: 0;
+}
+
 .footer {
     background-color: #1F2937;
     color: white;
     padding-top: 25px;
+}
+
+.containercol2 {
+    color: #e5e7eb;
 }
 
 /* Buttons */
@@ -103,6 +129,7 @@ h3 {
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
+    padding: 5px 20px;
 }
 
 .button1 {
@@ -113,15 +140,15 @@ h3 {
     border-color: white;
     align-self: center;
     justify-self: center;
+    
 }
 
 /*want rounded corners on images only in 
 the bottom part of page. */
 
-/*
-.card > .img {
-    border-radius: 5px;
-    border-color: blue;
+
+.card > img {
+    border-radius: 7px;
 }
-*/
+
 
