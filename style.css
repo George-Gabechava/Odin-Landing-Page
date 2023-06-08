@@ -28,6 +28,7 @@
 
 .section2 {
     padding: 0px 200px;
+    margin-bottom: 30px;
 }
 .greybody {
     background-color: #e5e7eb;
@@ -140,12 +141,9 @@ h5 {
     border-color: white;
     align-self: center;
     justify-self: center;
+    margin-left: 10px;
     
 }
-
-/*want rounded corners on images only in 
-the bottom part of page. */
-
 
 .card > img {
     border-radius: 7px;
